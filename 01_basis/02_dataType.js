@@ -117,5 +117,27 @@ const y = x++;
 let a = 3;
 const b = ++a;
 
-console.log(a,b); // Expected output: 4, 4
+//console.log(a,b); // Expected output: 4, 4
 
+//*****************************************comparison of dataType*********** */
+
+// console.log(2>1) // true
+// console.log(2>=1) // true
+// console.log(2<1) // false
+// console.log(2==1) // false
+// console.log(2!=1) //true
+
+//console.log("2" > 1) // result true =>not checked data type only value 
+
+// console.log(null > 0) // true 
+// console.log(null == 0) // false => 
+// console.log(null >= 0) // true => convert null into 0
+
+// console.log(undefined > 0) // false 
+// console.log(undefined == 0) // false 
+// console.log(undefined >= 0) // false 
+
+//******************** Strip check === ***************
+
+console.log("2" == 2)  // true => ==  check only value
+console.log("2" === 2) // false => === ckeck value and  type  also
